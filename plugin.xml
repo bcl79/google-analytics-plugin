@@ -19,7 +19,10 @@
     <clobbers target="navigator.analytics" />
   </js-module>
 
+  <!--
   <dependency id="com.google.playservices" />
+  -->
+  <dependency id="cordova-plugin-googleplayservices" />
 
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
